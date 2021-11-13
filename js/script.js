@@ -115,5 +115,27 @@
             + '<div class="col"><div class="card card-body countdown-shadow p-3"><span class="counter text-primary mb-1">%S</span> <span class="label">Second%!S</span></div></div>'));
     });
 
+    $('#submitwishes').on("click", function (e) {
+        if ($("#fromname").val() == "" || $('#fromemail').val() == "" || $('#userwishes').val() == "") {
+            $('#validationmsg').text("Enter all the required fields.");
+        }
+        else {
+            $.ajax({
+                url: "https://asia-south1-tucfbclouddb.cloudfunctions.net/tuc_shop_node_api/email/",
+                contentType: "application/json; charset=utf-8",
+                crossDomain: true,
+                dataType: 'json',
+                type: "POST",
+                processData: false,
+                data: JSON.stringify({ "from": "The Unique Creations <info@theuniquecreations.com>", "to": "vbalakumar.cse@gmail.com,satsri46@gmail.com", "subject": "Ragu Dharani Wedding Wishes From - " + $('#fromname').val(), "text": "", "html": "<p>" + $('#userwishes').val() + "</p> <p>Regards,</p> <p>" + $('#fromname').val() + "- <i>" + $('#fromemail').val() + "</i></p>" }),
+                success: function (response) {
+                    console.log("response", response)
+                }
+            });
+            $('#validationmsg').text("Your wishes sent successfully");
+            $("#fromname,#fromemail,#userwishes").val("");
+        }
+
+    });
 
 })(jQuery);
