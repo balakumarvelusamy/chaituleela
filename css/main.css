@@ -23,6 +23,12 @@ Created by : mutationthemes
 
 
 /*Preloader*/
+.iconimage {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #df6e6e;
+}
 .couplename {
   font-family: "Savoye LET";
 }
