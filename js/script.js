@@ -107,7 +107,7 @@
 
     // Countdown setup
 
-    $('.countdown').countdown('2021/12/09', function (event) {
+    $('.countdown').countdown('2021/12/09').on('update.countdown', function (event) {
         var $this = $(this).html(event.strftime(''
             + '<div class="col"><div class="card card-body countdown-shadow mb-4 mb-lg-0 p-3"><span class="counter text-primary mb-1 ">%D</span> <span class="label ">Day%!d</span></div></div> '
             + '<div class="col"><div class="card card-body countdown-shadow mb-4 mb-lg-0 p-3"><span class="counter text-primary mb-1">%H</span> <span class="label">Hour%!H</span></div></div> '
@@ -115,12 +115,5 @@
             + '<div class="col"><div class="card card-body countdown-shadow p-3"><span class="counter text-primary mb-1">%S</span> <span class="label">Second%!S</span></div></div>'));
     });
 
-    // <script type="text/javascript">
-    //   $("#getting-started")
-    //   .countdown("2017/01/01", function(event) {
-    //     $(this).text(
-    //       event.strftime('%D days %H:%M:%S')
-    //     );
-    //   });
-    // </script>
+
 })(jQuery);
