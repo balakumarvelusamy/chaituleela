@@ -213,7 +213,7 @@ Created by : mutationthemes
 
 /*End date section*/
 
-/*Story section*/
+/*Story section.*/
 
 .story {
   list-style: none;
@@ -261,7 +261,7 @@ Created by : mutationthemes
   top: 4.357rem;
   width: 1px;
   height: 3rem;
-  background: #bfbbb8;
+  background: none;
   opacity: 0.5;
 }
 .story li:not(:last-child) {
