@@ -27,8 +27,8 @@ Created by : mutationthemes
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  border: 1px solid #df6e6e;
-}
+  border: 1px solid #E0B0FF;
+} 
 .subtitile {
   font-family: "Snell Roundhand";
 }
@@ -92,16 +92,16 @@ Created by : mutationthemes
 @keyframes spinner-color {
   0%,
   100% {
-    stroke: #e25d5d;
+    stroke: #E0B0FF;
   }
   20% {
-    stroke: #df6e6e;
+    stroke: #E0B0FF;
   }
   40% {
-    stroke: #e25d5d;
+    stroke: #E0B0FF;
   }
   60% {
-    stroke: #df6e6e;
+    stroke: #E0B0FF;
   }
   80% {
     stroke: #e25d5d;
@@ -473,7 +473,7 @@ a,
   vertical-align: middle;
   text-align: center;
   color: #fff;
-  background-color: #e25d5d;
+  background-color: #E0B0FF;
   width: 2.35rem;
   height: 2.35rem;
   font-size: 0.75rem;
@@ -553,10 +553,10 @@ h6 > a:hover,
   background: rgba(255, 255, 255, 0.1) !important;
 }
 .bg-primary-svg {
-  fill: #e25d5d;
+  fill: #cf9fff;
 }
 .bg-secondary-svg {
-  fill: #fff9f5;
+  fill: #fdf5ff;
 }
 .bg-white-svg {
   fill: #ffffff;
@@ -583,7 +583,7 @@ h6 > a:hover,
   font-family: "Playfair Display", serif;
 }
 .card.bg-primary {
-  border-color: #e25d5d;
+  border-color: #E0B0FF;
 }
 .o-hidden {
   overflow: hidden;

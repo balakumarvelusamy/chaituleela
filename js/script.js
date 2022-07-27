@@ -93,7 +93,7 @@
   // Countdown setup
 
   $(".countdown")
-    .countdown("2021/12/09")
+    .countdown("2022/08/12")
     .on("update.countdown", function (event) {
       var $this = $(this).html(event.strftime("" + '<div class="col"><div class="card card-body countdown-shadow mb-4 mb-lg-0 p-3"><span class="counter text-primary mb-1 ">%D</span> <span class="label ">Day%!d</span></div></div> ' + '<div class="col"><div class="card card-body countdown-shadow mb-4 mb-lg-0 p-3"><span class="counter text-primary mb-1">%H</span> <span class="label">Hour%!H</span></div></div> ' + '<div class="col"><div class="card card-body countdown-shadow mb-4 mb-lg-0 p-3"><span class="counter text-primary mb-1">%M</span> <span class="label">Minute%!M</span></div></div> ' + '<div class="col"><div class="card card-body countdown-shadow p-3"><span class="counter text-primary mb-1">%S</span> <span class="label">Second%!S</span></div></div>'));
     });
@@ -109,7 +109,7 @@
         dataType: "json",
         type: "POST",
         processData: false,
-        data: JSON.stringify({ from: "The Unique Creations <info@theuniquecreations.com>", to: "ragupathi28@gmail.com,dharanide@gmail.com", subject: "Ragu Dharani Wedding Wishes From - " + $("#fromname").val(), text: "", html: "<p>" + $("#userwishes").val() + "</p> <p>Regards,</p> <p>" + $("#fromname").val() + "- <i>" + $("#fromemail").val() + "</i></p>" }),
+        data: JSON.stringify({ from: "The Unique Creations <info@theuniquecreations.com>", to: "chaitanya.b26@gmail.com", subject: "Chaitu Leela Wedding Wishes From - " + $("#fromname").val(), text: "", html: "<p>" + $("#userwishes").val() + "</p> <p>Regards,</p> <p>" + $("#fromname").val() + "- <i>" + $("#fromemail").val() + "</i></p>" }),
         success: function (response) {
           console.log("response", response);
         },
