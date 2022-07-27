@@ -104,7 +104,7 @@ Created by : mutationthemes
     stroke: #E0B0FF;
   }
   80% {
-    stroke: #e25d5d;
+    stroke: #cf9fff;
   }
 }
 @keyframes spinner-dash {
@@ -380,11 +380,11 @@ ul.instafeed-list li a {
 /*Miscellaneous*/
 
 ::-moz-selection {
-  background: #e25d5d;
+  background: #cf9fff;
   color: #ffffff;
 }
 .gradient-overlay:before {
-  background-color: rgba(23, 23, 38, 0.6);
+  background-color: rgba(23, 23, 38, 0.3);
   position: absolute;
   top: 0;
   right: 0;
@@ -553,7 +553,7 @@ h6 > a:hover,
   background: rgba(255, 255, 255, 0.1) !important;
 }
 .bg-primary-svg {
-  fill: #cf9fff;
+  fill: #E0B0FF;
 }
 .bg-secondary-svg {
   fill: #fdf5ff;
