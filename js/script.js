@@ -109,7 +109,7 @@
         dataType: "json",
         type: "POST",
         processData: false,
-        data: JSON.stringify({ from: "The Unique Creations <info@theuniquecreations.com>", to: "chaitanya.b26@gmail.com", subject: "Chaitu Leela Wedding Wishes From - " + $("#fromname").val(), text: "", html: "<p>" + $("#userwishes").val() + "</p> <p>Regards,</p> <p>" + $("#fromname").val() + "- <i>" + $("#fromemail").val() + "</i></p>" }),
+        data: JSON.stringify({ from: "Chaitu Leela Wedding <chaitanya.b26@gmail.com>", to: "chaitanya.b26@gmail.com", subject: "Chaitu Leela Wedding Wishes From - " + $("#fromname").val(), text: "", html: "<p>" + $("#userwishes").val() + "</p> <p>Regards,</p> <p>" + $("#fromname").val() + "- <i>" + $("#fromemail").val() + "</i></p>" }),
         success: function (response) {
           console.log("response", response);
         },
