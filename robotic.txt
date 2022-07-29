@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: www.ragudharani.com/sitemap.xml
+Sitemap: www.chaituleela.com/sitemap.xml
