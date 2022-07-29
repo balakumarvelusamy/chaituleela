@@ -312,7 +312,7 @@ section#gift:after {
   background-repeat: repeat;
   position: absolute;
   content: "";
-  height: 1000px;
+  /* height: 1000px; */
   width: 100%;
   top: -156px;
   z-index: 2;
